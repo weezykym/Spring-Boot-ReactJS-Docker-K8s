@@ -19,7 +19,7 @@ jobs:
 
     defaults:
       run:
-        working-directory: bookmarker-api-k8s
+        working-directory: src/bookmarker-api-k8s
 
     steps:
       - uses: actions/checkout@v4
